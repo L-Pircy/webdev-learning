@@ -1,0 +1,143 @@
+h3{
+    color:green;
+}
+body{
+    background-color: #000;
+    color:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    /*OR
+    font: normal 16px Arial, Helvetica, sans-serif;
+    */
+    line-height:1.6em; /*or 3px*/
+    margin: 3px;
+}
+.container{
+    width:80%;
+    margin:auto;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 15px 18px;
+    border: none;
+}
+.button:hover{
+    background-color: aqua;
+    color: beige;
+}
+.clr{
+    clear:both;
+}
+.p-1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*margin: 5px 10px 5px 10px; =top right bottom left*/
+    /*or  ccan do margin: 5px 10px; 5 becomes top bottom, 10 becomes right left*/
+    /*replace margin with padding or border for same*/
+    padding: 10px;
+    border: 5px red solid;
+    background-color: #333;
+    color:grey;
+}
+.p-1 h1{
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;  
+    text-decoration: dotted;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+}
+.p-2{
+    border: 3px dotted #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+.categories{
+    border: 3px white dotted;
+    padding:9px;
+    border-radius: 30px ;
+    background-color: burlywood;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 10px;
+    padding-left: 100px;
+    list-style: square;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: green;
+}
+a:visited{
+    color:yellow;
+}
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: #333 dotted;
+    list-style-image: url('../images/gatech.png');
+}
+.myform{
+    padding: 20px;
+}
+.myform .form-grp{
+    padding: 15px;
+}
+.myform label{
+    display:block;
+}
+.myform input[type = "text"], .myform textarea{
+    padding: 8px;
+    width: 100%;
+}
+.block {
+    float: left;
+    width: 33.3%;
+    border:1px colid #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#mainblock{
+    float:left;
+    width: 70%;
+}
+#sidebar{
+    float:right;
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.p-box{
+    width: 800px;
+    height: 500px;
+    margin-right: 30px;
+    border:1px solid #fff;
+    margin-top: 30px;
+}
+.fix-me{
+    position:fixed;
+    top: 400 px;
+}
+.mylist li:first-child{
+    background:red;
+}
+.mylist li:last-child{
+    background:blue;
+}
+.mylist li:nth-child(even){
+    background:blueviolet;
+}
+
