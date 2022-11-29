@@ -24,7 +24,7 @@ ul{
     color: #fff;
 }
 header{
-    background: #35424a; /*bg vs bg-color*/
+    background: #26292c; /*bg vs bg-color*/
     color: #fff;
     padding-top: 30px;
     min-height: 70px; /*use min to make layout responsive if different scrn*/
@@ -78,7 +78,7 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color: #fff;
-    background: #35424a;
+    background: #26292c;
 }
 #newsletter h1{
     float: left;
