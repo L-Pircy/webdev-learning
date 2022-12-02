@@ -6,15 +6,19 @@ body{
     margin:0;
     background-color: #f4f4f4;
 }
+
+/*Global*/
 .container{
     width: 80%; /*makes responsive*/
     margin: auto; /*centers it*/
     overflow: hidden; /*removes scrolling down*/
 }
+
 ul{
     padding: 0;
     margin: 0;
 }
+
 .button-1{
     height: 38px;
     background: #e8491d;
@@ -23,6 +27,7 @@ ul{
     padding-right: 20px;
     color: #fff;
 }
+
 .dark{
     padding: 15px;
     background-color: #26292c;
@@ -30,6 +35,8 @@ ul{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/*Header*/
 header{
     background: #26292c; /*bg vs bg-color*/
     color: #fff;
@@ -37,17 +44,20 @@ header{
     min-height: 70px; /*use min to make layout responsive if different scrn*/
     border-bottom: #e8491d 3px solid;
 }
+
 header a{
     color: #fff;
     text-decoration: none; /*removes underline of hyperlink*/
     text-transform: uppercase;
     font-size: 16px;
 }
+
 header li{
     float:left; /*inline which side*/
     display:inline;
     padding: 0 20px 0 20px ;
 }
+
 header #branding{
     float: left;
 }
@@ -66,6 +76,8 @@ header a:hover{
     color: #cccccc;
     font-weight: bold;
 }
+
+/*ShowCase*/
 #showcase{
     min-height: 400px;
     background: url('img/showcase.jpg') no-repeat;
@@ -74,6 +86,7 @@ header a:hover{
     text-align: center;
     color: #fff;
 }
+
 #showcase h1{
     margin-top: 100px;
     font-size: 55px;
@@ -82,23 +95,30 @@ header a:hover{
 #showcase p{
     font-size: 20px;
 }
+
+/*NewsLetter*/
 #newsletter{
     padding: 15px;
     color: #fff;
     background: #26292c;
 }
+
 #newsletter h1{
     float: left;
 }
+
 #newsletter form{
     float:right;
     margin-top: 15px;
 }
+
 #newsletter input[type="email"]{
     padding: 4px;
     height: 25px;
     width: 250px;
 }
+
+/*Boxes*/
 #boxes{
     margin-top: 20px;
 }
@@ -108,17 +128,36 @@ header a:hover{
     padding: 10px;
     text-align: center;
 }
+
 #boxes .box img{
     width: 90px;
 }
+
+/* SideBar*/
 aside #sidebar{
     float: right;
     width: 30%;
     margin-top: 10px;
 }
+
+aside#sidebar .qoute input, aside#sidebar .qoute textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+/*Main-Col*/
 #main-col{ /*article #main-col not working to float*/
     float: left;
     width: 60%;
+}
+
+/* Services*/
+ul #services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background: #e6e6e6;
 }
 footer{
     padding: 20px;
@@ -127,6 +166,7 @@ footer{
     background-color: #e8491d;
     text-align: center;
 }
+
 /*.header{
     background-color: #2b2c39;
     padding-left: 10%;
