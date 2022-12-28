@@ -51,3 +51,14 @@ img {
     width: 100%;
     /*need img to be 100% of container*/
 }
+
+.showcase {
+    width: 100%;
+    height: 93vh;
+    /* vh= viewport height, ie the visible scrn height*/
+    /*hass 100vh, we take 93 to leave a lil at neeche*/
+    position: relative;
+    /*??*/
+    background: url(../img/background.jpeg) no-repeat center center/cover;
+
+}
