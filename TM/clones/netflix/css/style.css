@@ -78,3 +78,35 @@ img {
     transform: translate(-50%, -50%);
     /*discounts the size of img while positioning*/
 }
+
+.showcase-top a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    /*discounts the size of text while positioning*/
+}
+
+
+/*utility classes*/
+/*button*/
+.btn {
+    display: inline-block;
+    /*its inline but we can add height???*/
+    background: var(--primary-color);
+    /*using a variable*/
+    color: #fff;
+    padding: .4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    /*adds the different cursor*/
+    margin-right: 0.5rem;
+    /*incase we put buttons inline next to each other ???*/
+    outline: none;
+    /*DOUBT border vs outline?*/
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    /*puts shadow below button*/
+    border-radius: 2px;
+}
