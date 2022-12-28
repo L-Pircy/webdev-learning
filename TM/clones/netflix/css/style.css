@@ -110,3 +110,24 @@ img {
     /*puts shadow below button*/
     border-radius: 2px;
 }
+
+.btn:hover {
+    opacity: 0.9;
+    /*reduces opacity when hover*/
+}
+
+.btn-rounded {
+    border-radius: 5px;
+}
+
+.btn-xl {
+    font-size: 2rem;
+    padding: 1.5rem 2.1rem;
+    text-transform: uppercase;
+}
+
+.btn-large {
+    font-size: 1rem;
+    padding: 1.8rem 1.3rem;
+    text-transform: uppercase;
+}
