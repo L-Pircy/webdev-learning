@@ -1,29 +1,42 @@
-:root{
-    --primary-color: #fff;
+:root {
+    --primary-color: #e50914;
+    /*can change through out by changing just this*/
 }
 
-*{
+* {
+    /*reset*/
     box-sizing: border-box;
+    /*so padding doest affect width*/
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: Arial, sans-serif;
+    /*actually helvetica but free nahi hai*/
     -webkit-font-smoothing: antialiased;
+    /*???*/
     background: #000;
     color: #999;
 }
 
-ul{
+ul {
     list-style: none;
+    /*get rid of bullets*/
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     color: #fff;
+    /*heading clr diff that grey text*/
 }
 
-a{
+a {
+    /*link*/
     color: #fff;
+    /*makes blue hyperlink white*/
     text-decoration: none;
+    /*take away underline*/
 }
