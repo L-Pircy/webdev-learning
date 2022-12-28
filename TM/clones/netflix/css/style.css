@@ -40,3 +40,14 @@ a {
     text-decoration: none;
     /*take away underline*/
 }
+
+p {
+    margin: 0.5rem 0;
+    /*we need margin for para*/
+    /*1 rem = no. of px of font size of root html*/
+}
+
+img {
+    width: 100%;
+    /*need img to be 100% of container*/
+}
