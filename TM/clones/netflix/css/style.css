@@ -60,5 +60,21 @@ img {
     position: relative;
     /*??*/
     background: url(../img/background.jpeg) no-repeat center center/cover;
+}
 
+.showcase-top {
+    position: relative;
+    /*??*/
+    height: 90px;
+}
+
+.showcase-top img {
+    /*logo sizing and positioning*/
+    width: 170px;
+    position: absolute;
+    /*??*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*discounts the size of img while positioning*/
 }
