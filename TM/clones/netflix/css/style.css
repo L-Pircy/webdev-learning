@@ -62,10 +62,27 @@ img {
     background: url(../img/background.jpeg) no-repeat center center/cover;
 }
 
+.showcase::after {
+    /*adding the overlay*/
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /*changes position upar neeche*/
+    background: rgba(0, 0, 0, 0.6);
+    /*rgba helps us mess with opacity*/
+    box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
+    /* gives shadow inside xaxis yaxis blur, -xaxis, -yaxis blur*/
+}
+
 .showcase-top {
     position: relative;
     /*??*/
     height: 90px;
+    z-index: 2;
 }
 
 .showcase-top img {
@@ -98,6 +115,7 @@ img {
     /*stops the button spreading to sides*/
     text-align: center;
     margin-top: 9rem;
+    z-index: 2;
 }
 
 .showcase-content h1 {
