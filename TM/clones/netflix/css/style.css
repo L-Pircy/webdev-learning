@@ -75,7 +75,7 @@ img {
     /*changes position upar neeche*/
     background: rgba(0, 0, 0, 0.6);
     /*rgba helps us mess with opacity*/
-    box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
+    box-shadow: inset 30px 30px 600px #000, inset -30px -30px 600px #000;
     /* gives shadow inside xaxis yaxis blur, -xaxis, -yaxis blur*/
 }
 
@@ -120,8 +120,8 @@ img {
 }
 
 .showcase-content h1 {
-    font-weight: 700;
-    font-size: 5.2rem;
+    font-weight: 450;
+    font-size: 3.3rem;
     line-height: 1.1;
     /*?*/
     margin: 0 0 2rem;
@@ -130,8 +130,8 @@ img {
 .showcase-content p {
     text-transform: uppercase;
     color: #fff;
-    font-weight: 400;
-    font-size: 1.9rem;
+    font-weight: 300;
+    font-size: 0.9rem;
     line-height: 1.25;
     /*??*/
     margin: 0 0 2rem;
@@ -145,7 +145,55 @@ img {
     border-bottom: 3px solid #3d3d3d;
 }
 
+.tabs .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tabs p {
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+}
+
+.tabs .container>div {
+    padding: 1.5rem;
+}
+
+.tabs .container>div:hover {
+    color: #fff;
+    cursor: pointer;
+    border-bottom: #e50914 solid;
+}
+
+.tab-border {
+    border-bottom: var(--primary-color) 4px solid;
+}
+
+#tab-1 {
+    order: 1;
+}
+
+#tab-2 {
+    order: 2;
+}
+
+#tab-3 {
+    order: 3;
+}
+
 /*utility classes*/
+
+.container {
+    max-width: 70%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
 /*button*/
 .btn {
     display: inline-block;
@@ -178,7 +226,7 @@ img {
 }
 
 .btn-xl {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding: 1.5rem 2.1rem;
     text-transform: uppercase;
 }
