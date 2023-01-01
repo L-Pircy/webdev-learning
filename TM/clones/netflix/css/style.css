@@ -185,6 +185,18 @@ img {
     color: #fff;
 }
 
+/*hide content initialli*/
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+    /*imp helps it take precedence*/
+}
+
 #tab-1-content .tab-1-content-inner {
     /*griding the cobtent of tab1*/
     display: grid;
