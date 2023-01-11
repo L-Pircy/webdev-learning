@@ -153,3 +153,20 @@ ul {
 .xbox p {
     margin: 10px 0 20px;
 }
+
+/* Follow */
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+}
+
+.follow img {
+    height: 30px;
+}
+
+.follow * {
+    margin-right: 10px;
+}
