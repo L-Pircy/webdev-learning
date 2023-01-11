@@ -26,7 +26,7 @@ ul {
 
 .container {
     width: 90%;
-    max-width: 1100px;
+    max-width: 1260px;
     margin: auto;
     /*gives even margin on all sides*/
 }
@@ -219,6 +219,10 @@ ul {
     align-items: center;
 }
 
+.footer div i {
+    margin-right: 10px;
+}
+
 .footer ul {
     display: flex;
     flex-wrap: wrap;
@@ -227,4 +231,22 @@ ul {
 .footer li {
     margin-right: 30px;
     margin-bottom: 20px;
+}
+
+@media(max-width: 700px) {
+    .home-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .xbox .content p {
+        display: none;
+    }
+
+    .xbox .content h2 {
+        margin-bottom: 20px;
+    }
+
+    .links .links-inner {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
