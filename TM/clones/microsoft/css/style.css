@@ -37,9 +37,11 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
-    padding: 20px 0;
-    font-size: 13px;
+    height: 51px;
+    padding: 20px 9px;
+    font-size: 12.3px;
+    letter-spacing: 0.6px;
+    color: #111111;
 }
 
 .main-nav .logo {
@@ -48,6 +50,7 @@ ul {
 
 .main-nav ul {
     display: flex;
+    margin-top: 3px;
 }
 
 .main-nav ul li {
